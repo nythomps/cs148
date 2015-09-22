@@ -1,0 +1,1 @@
+SELECT fldLastName, fldFirstName FROM tblTeachers WHERE pmkNetId LIKE 'r%' AND pmkNetId like '%______o%' AND fldLastName NOT LIKE 'P%'
