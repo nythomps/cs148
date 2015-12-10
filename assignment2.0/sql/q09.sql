@@ -1,0 +1,1 @@
+SELECT tblSections.fldBuilding,COUNT(tblSections.fldNumStudents) AS NumberofStudentsonWednesday FROM tblSections WHERE fldDays LIKE '%__W__%' GROUP BY fldBuilding ORDER BY NumberofStudentsonWednesday DESC
