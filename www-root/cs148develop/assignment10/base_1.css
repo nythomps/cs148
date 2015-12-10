@@ -1,0 +1,73 @@
+
+body#tables p.tagline {
+    font-size: 25px;
+    margin-top: -10px;
+    padding: 10px;
+    position: relative;
+}
+body#tables {
+    background-color: #40b868;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2 {
+    box-shadow: 0 0 2px;
+    padding-bottom: 0.1em;
+    text-align: center;
+}
+p, body#tables {
+    font-size: 15px;
+}
+article {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 1px;
+    color: #000000;
+    margin-left: auto;
+}
+p {
+    text-align: center;
+}
+h2 {
+    color: #000000;
+    font-size: 15px;
+}
+footer > p > a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+h1 {
+    color: #000000;
+}
+.odd {
+    background-color: #add8e6;
+}
+body#tables aside#records p, td, th, tr.odd, tr.even, body {
+    font-size: 10px;
+}
+section#tables2.float_left {
+    display: none;
+}
+body#tables h1#title > a {
+    color: #ffd700;
+    font-size: 50px;
+}
+.even {
+    background-color: #6ab2c9;
+}
+img {
+    height: 10%;
+    width: 20%;
+}
+nav, ul, li a {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    z-index: 12;
+    font-size: 12px;
+}

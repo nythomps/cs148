@@ -1,0 +1,7 @@
+<Files *>
+AuthType WebAuth
+require user nythomps
+satisfy any
+order allow,deny
+</Files>
+
